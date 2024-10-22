@@ -33,7 +33,8 @@ import org.easypeelsecurity.springdog.autoconfigure.applier.SpringDogEnable;
 @ImportRuntimeHints(PetClinicRuntimeHints.class)
 public class PetClinicApplication {
 
-  public static void main(String[] args) {
-    SpringApplication.run(PetClinicApplication.class, args);
-  }
+	public static void main(String[] args) {
+		SpringApplication.run(PetClinicApplication.class, args);
+	}
+
 }
