@@ -38,6 +38,19 @@
   </properties>
 
   <dependencies>
+    <dependency>
+      <groupId>org.easypeelsecurity</groupId>
+      <artifactId>springdog-starter</artifactId>
+      <version>0.0.4</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.easypeelsecurity</groupId>
+      <artifactId>springdog-starter</artifactId>
+      <version>0.0.4</version>
+      <scope>provided</scope>
+    </dependency>
+
     <!-- Spring and Spring Boot dependencies -->
     <dependency>
       <groupId>org.springframework.boot</groupId>
